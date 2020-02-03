@@ -79,4 +79,4 @@ def d():
     output.to_csv('general-stats.csv')
 
 
-c()
+d()
