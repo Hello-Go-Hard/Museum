@@ -17,4 +17,4 @@ def b():
     print("Unknown  ", count_of_nan)
     dict = {'Object': [some_series.loc[some_series['new column'].astype(float).idxmax()]['ObjectName'], 'NaN date'], 'Duration': [ some_series['new column'].max(), count_of_nan]}
     output = pd.DataFrame(dict)
-    output.to_csv('general-stats.csv')
+    #output.to_csv('general-stats.csv')
